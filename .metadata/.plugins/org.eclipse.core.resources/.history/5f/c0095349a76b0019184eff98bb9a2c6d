@@ -1,0 +1,12 @@
+package Compare;
+
+import java.util.Comparator;
+
+public class strringBufferComparator implements Comparator {
+
+
+
+
+	}
+
+

@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class factorial {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Please enter the number");
+		Scanner s=new Scanner(System.in);
+		String str=s.nextLine();
+		int a=Integer.parseInt(str);
+		int factorial=1;
+		for (int i=a;i>=1;i--)
+		{
+			factorial=factorial*i;
+		}
+		System.out.println(factorial);
+	}
+
+}

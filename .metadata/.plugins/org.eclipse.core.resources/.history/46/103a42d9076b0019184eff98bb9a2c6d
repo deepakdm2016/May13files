@@ -1,0 +1,10 @@
+package inbuiltInterfaceLambda;
+
+public class testRunnable {
+
+	public static void main(String v[])
+	{
+		myRunnable r=new myRunnable();
+		
+	}
+}

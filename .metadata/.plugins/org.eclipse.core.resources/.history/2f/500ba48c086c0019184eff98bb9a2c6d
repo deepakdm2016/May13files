@@ -1,0 +1,5 @@
+package lambda_inbuilt;
+
+public interface abc implements Comparable {
+
+}

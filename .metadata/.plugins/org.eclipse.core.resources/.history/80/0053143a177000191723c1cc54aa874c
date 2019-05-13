@@ -1,0 +1,22 @@
+package restAssured;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
+
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.equalTo;
+
+
+
+public class basics2 {
+	
+	@Test
+	public void testData()
+	{
+		RestAssured.baseURI="https://maps-googleapis.com";
+		given().
+	}
+
+}

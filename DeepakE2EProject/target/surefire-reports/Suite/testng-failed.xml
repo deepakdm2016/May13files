@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="DeepakAcademy.DeepakE2EProject.helpListen"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test1(failed)">
+    <classes>
+      <class name="DeepakAcademy.DeepakE2EProject.homePage">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- DeepakAcademy.DeepakE2EProject.homePage -->
+      <class name="DeepakAcademy.DeepakE2EProject.validateLandingPage">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- DeepakAcademy.DeepakE2EProject.validateLandingPage -->
+      <class name="DeepakAcademy.DeepakE2EProject.validateLandingPageTitle">
+        <methods>
+          <include name="tearDown"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- DeepakAcademy.DeepakE2EProject.validateLandingPageTitle -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

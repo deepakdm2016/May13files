@@ -1,0 +1,11 @@
+package collectionObject;
+
+public class testEmployee {
+
+	
+	public static void main(String[] args) {
+
+		Set<Employee> el=new TreeSet<Emplyee>();
+	}
+
+}

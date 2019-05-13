@@ -1,0 +1,12 @@
+
+public class base {
+	int count=0;
+	base()
+	{
+		addvalue(0);
+	}
+	private void addvalue(int i) {
+		count+=10;
+	}
+	
+}

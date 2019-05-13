@@ -1,0 +1,13 @@
+package javaBharath;
+
+public class testUser {
+
+	public static void main(String[] args) {
+
+		
+		user u1=new user("Deepak",389524);
+		user u2=new user("Deepak",389524);
+
+	}
+
+}

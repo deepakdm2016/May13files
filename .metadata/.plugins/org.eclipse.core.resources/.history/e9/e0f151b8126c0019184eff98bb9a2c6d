@@ -1,0 +1,10 @@
+package java8Streams;
+
+public class testStream {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

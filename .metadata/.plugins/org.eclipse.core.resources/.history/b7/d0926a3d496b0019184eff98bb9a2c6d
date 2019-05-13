@@ -1,0 +1,10 @@
+package defaultMethods;
+
+public class B implements A{
+	
+	public static void main(String v[]){
+	A a= new B();
+	a.m1();
+	
+	}
+}

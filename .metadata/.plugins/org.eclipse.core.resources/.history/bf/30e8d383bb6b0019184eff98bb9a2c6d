@@ -1,0 +1,10 @@
+
+public class enumDemo {
+
+	public enum db{MYSQL, ORACLE, SQLSERVER, DB2, SYBASE};
+	
+	public static void main(String v[])
+	{
+		
+	}
+}

@@ -1,0 +1,39 @@
+package introduction;
+
+import java.net.MalformedURLException;
+
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+
+import io.appium.java_client.TouchAction;
+import static io.appium.java_client.touch.TapOptions.tapOptions;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.touch.offset.ElementOption;
+import static io.appium.java_client.touch.offset.ElementOption.element;
+
+public class gestures extends base {
+
+	public static void main(String[] args) throws MalformedURLException {
+		// TODO Auto-generated method stub
+
+		AndroidDriver<AndroidElement> driver = capabilities();
+		WebElement xplandable=driver.findElementByXPath("//android.widget.TextView[@text='Preference']");
+		
+		xplandable.sendKeys(Keys.ARROW_DOWN);
+		xplandable.sendKeys(Keys.ARROW_DOWN);
+		xplandable.sendKeys(Keys.ARROW_DOWN);
+		
+		driver.findElementByXPath("//android.widget.TextView[@text='view']").click();
+		
+	
+		TouchAction t=new TouchAction(driver);
+		t.tap(tapOptions().withElement(element(xplandable))).perform();
+		
+	}
+
+
+	}
+

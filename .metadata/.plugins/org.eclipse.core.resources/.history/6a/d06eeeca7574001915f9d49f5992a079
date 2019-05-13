@@ -1,0 +1,18 @@
+package DeepakAcademy.mavenRevision;
+
+public class RestTest {
+
+	@Test
+	public void restAutomation()
+	{
+		System.out.println("android Automation");
+	}
+	
+
+	@Test
+	public void restAPIAutomation()
+	{
+		System.out.println("ios Automation");
+	}
+	
+}

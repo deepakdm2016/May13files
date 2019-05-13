@@ -1,0 +1,4 @@
+12:18:48.643 [main] INFO  restAssured.PostDelete - {"status":"OK","place_id":"970ea3691bc34d3ef0e99dc87fabe7ff","scope":"APP","reference":"83a1ed3df9d5f2ce75e1bcbc55bb761f83a1ed3df9d5f2ce75e1bcbc55bb761f","id":"83a1ed3df9d5f2ce75e1bcbc55bb761f"}
+12:18:48.660 [main] INFO  restAssured.PostDelete - io.restassured.path.json.JsonPath@2375b321
+12:18:48.698 [main] INFO  restAssured.PostDelete - 970ea3691bc34d3ef0e99dc87fabe7ff
+12:18:48.959 [main] INFO  restAssured.PostDelete - {"msg":"Delete operation failed, looks like the data doesn't exists"}

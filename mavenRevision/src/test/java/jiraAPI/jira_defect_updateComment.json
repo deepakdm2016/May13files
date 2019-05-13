@@ -1,0 +1,7 @@
+{
+    "body": "This is a comment that only administrators can see for RC4 - updated by put request",
+    "visibility": {
+        "type": "role",
+        "value": "Administrators"
+    }
+}

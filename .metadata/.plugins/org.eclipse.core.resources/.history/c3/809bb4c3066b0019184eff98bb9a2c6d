@@ -1,0 +1,18 @@
+package lambdaWithParameter;
+
+public class Sum implements addition {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		addition add=(a,b)->System.out.println(a+b);
+	}
+
+	@Override
+	public void add(int a, int b) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

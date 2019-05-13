@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;mindTree_inheritence&apos; to &apos;Java_interview_programs/src&apos;&#x0D;&#x0A;- Original project: &apos;Introduction&apos;&#x0D;&#x0A;- Destination element: &apos;Java_interview_programs/src&apos;&#x0D;&#x0A;- Original element: &apos;Introduction/src/mindTree_inheritence&apos;" description="Copy package" destination="=Java_interview_programs/src" element1="/src&lt;mindTree_inheritence" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1556493846514" version="1.0"/>
+</session>

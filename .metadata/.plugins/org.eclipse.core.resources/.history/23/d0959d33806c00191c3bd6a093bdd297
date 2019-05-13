@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+
+		<packages>
+
+			<package name="testPackage">
+
+				<exclude name="test123"></exclude>
+			</package>
+		</packages>
+
+		<classes>
+			<class name="test123.testA">
+				<methods>
+					<exclude name="getNumber.*"></exclude>
+				</methods>
+			</class>
+			<class name="test123.testA2" />
+
+		</classes>
+	</test>
+
+	<test name="TestPackage2">
+		<classes>
+			<class name="test123.copy.testA2" />
+			<class name="test123.copy.testA" />
+		</classes>
+	</test>
+	<!-- Test -->
+</suite> <!-- Suite -->

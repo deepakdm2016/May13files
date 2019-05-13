@@ -1,0 +1,7 @@
+package lambda_inbuilt;
+
+import java.util.Comparator;
+
+public class abc implements Comparable {
+
+}

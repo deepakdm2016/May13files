@@ -1,0 +1,11 @@
+package HCL;
+
+public class repeatedWordSentence {
+
+	public static void main(String[] args) {
+
+		
+		
+	}
+
+}

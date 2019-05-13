@@ -1,0 +1,5 @@
+package lambdaAddition;
+
+public interface addition {
+
+}

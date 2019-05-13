@@ -1,0 +1,9 @@
+package HCL;
+
+public class mainShape {
+
+	public static void main(String v[])
+	{
+		
+	}
+}

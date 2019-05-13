@@ -1,0 +1,20 @@
+package files;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
+import io.restassured.path.xml.XmlPath;
+import io.restassured.response.Response;
+
+public class reusableMethods {
+	
+	
+	public void rawToXml(Response r)
+	{
+		String resp=r.asString();
+		XmlPath x=new XmlPath(resp);
+
+	}
+
+}

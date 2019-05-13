@@ -1,0 +1,18 @@
+package HospitalUtils;
+
+public class hospitalManagement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		hospital manipal=new hospital();
+		patient p1=new patient("Deepak","Mysore");
+		patient p2=new patient("Shyam","Rajasthan");
+		patient p3=new patient("Vinithra","Bangalore");
+		patient p4=new patient("Pavithra","Bangalore");
+		patient p5=new patient("Sandeep","Kochin");
+		
+		
+			
+	}
+
+}

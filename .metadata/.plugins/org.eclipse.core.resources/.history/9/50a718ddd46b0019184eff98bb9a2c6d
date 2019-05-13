@@ -1,0 +1,15 @@
+package lambda8;
+
+public class syntaxAndBindingLambdas {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Runnable r1=()->System.out.println("This is my first functional expression");
+		
+		r1.run();
+		r1.run();
+		r1.run();
+	}
+
+}

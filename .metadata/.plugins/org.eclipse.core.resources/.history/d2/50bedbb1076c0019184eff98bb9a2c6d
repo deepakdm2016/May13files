@@ -1,0 +1,13 @@
+package lambda_inbuilt;
+
+public class lambdaCompareTo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Comparable c=(s1,s2) -> 
+		{ 
+		};
+	}
+
+}

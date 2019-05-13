@@ -1,0 +1,21 @@
+Google - google map key
+Jira - SessionID
+
+Twitter - oauth
+
+Four parameters to be provided are
+---------------------------------------
+Consumer Key
+Consumer secret
+Token
+Token Secret
+
+How to get oauth twitter parameters
+-------------------------------------
+Create twitter account
+Create application from which you want to connect to twitter
+https://apps.twitter.com
+
+Explore twitter api's available
+-----------------------------
+https://developer.twitter.com/en/docs/api-reference-index

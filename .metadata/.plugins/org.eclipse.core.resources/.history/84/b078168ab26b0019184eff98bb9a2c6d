@@ -1,0 +1,10 @@
+package genericsDemo;
+
+public class myGenericClass<T> {
+	T obj;
+	myGenericClass(T obj){
+		
+		this.obj=obj;
+	}
+
+}

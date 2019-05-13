@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;Java_interview_programs/src/exceptionHandling&apos;&#x0D;&#x0A;- Original project: &apos;ExceptionHandling&apos;&#x0D;&#x0A;- Destination element: &apos;Java_interview_programs/src/exceptionHandling&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     customException.java&#x0D;&#x0A;     exceptionHandler.java" description="Copy compilation units" destination="=Java_interview_programs/src&lt;exceptionHandling" element1="/src&lt;{customException.java" element2="/src&lt;{exceptionHandler.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1556299210314" units="2" version="1.0"/>
+</session>

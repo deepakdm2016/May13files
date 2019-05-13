@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="4610" started-at="2019-05-12T08:38:21Z" finished-at="2019-05-12T08:38:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="4610" started-at="2019-05-12T08:38:21Z" finished-at="2019-05-12T08:38:26Z">
+      <class name="jiraAPI.jiraBasics">
+        <test-method status="PASS" signature="jiraAPI()[pri:0, instance:jiraAPI.jiraBasics@589838eb]" name="jiraAPI" duration-ms="147" started-at="2019-05-12T14:08:25Z" finished-at="2019-05-12T14:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jiraAPI -->
+      </class> <!-- jiraAPI.jiraBasics -->
+      <class name="jiraAPI.jiraBasics_comment">
+        <test-method status="PASS" signature="jiraAPI()[pri:0, instance:jiraAPI.jiraBasics_comment@271053e1]" name="jiraAPI" duration-ms="2735" started-at="2019-05-12T14:08:21Z" finished-at="2019-05-12T14:08:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jiraAPI -->
+      </class> <!-- jiraAPI.jiraBasics_comment -->
+      <class name="restAssured.Post_xml">
+        <test-method status="PASS" signature="testData()[pri:0, instance:restAssured.Post_xml@14bf9759]" name="testData" duration-ms="351" started-at="2019-05-12T14:08:24Z" finished-at="2019-05-12T14:08:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testData -->
+      </class> <!-- restAssured.Post_xml -->
+      <class name="restAssured.Post">
+        <test-method status="PASS" signature="getData()[pri:0, instance:restAssured.Post@5f341870]" name="getData" is-config="true" duration-ms="10" started-at="2019-05-12T14:08:21Z" finished-at="2019-05-12T14:08:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="getData()[pri:0, instance:restAssured.PostDelete@553f17c]" name="getData" is-config="true" duration-ms="0" started-at="2019-05-12T14:08:21Z" finished-at="2019-05-12T14:08:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="getData()[pri:0, instance:restAssured.Post_xml@14bf9759]" name="getData" is-config="true" duration-ms="1" started-at="2019-05-12T14:08:21Z" finished-at="2019-05-12T14:08:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="getData()[pri:0, instance:libraryAPI.staticJson@4f7d0008]" name="getData" is-config="true" duration-ms="0" started-at="2019-05-12T14:08:21Z" finished-at="2019-05-12T14:08:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="testData()[pri:0, instance:restAssured.Post@5f341870]" name="testData" duration-ms="192" started-at="2019-05-12T14:08:24Z" finished-at="2019-05-12T14:08:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testData -->
+      </class> <!-- restAssured.Post -->
+      <class name="restAssured.PostDelete">
+        <test-method status="PASS" signature="addAndDelete()[pri:0, instance:restAssured.PostDelete@553f17c]" name="addAndDelete" duration-ms="711" started-at="2019-05-12T14:08:24Z" finished-at="2019-05-12T14:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAndDelete -->
+      </class> <!-- restAssured.PostDelete -->
+      <class name="jiraAPI.jiraBasics_comment_updated">
+        <test-method status="PASS" signature="jiraAPI()[pri:0, instance:jiraAPI.jiraBasics_comment_updated@42dafa95]" name="jiraAPI" duration-ms="131" started-at="2019-05-12T14:08:25Z" finished-at="2019-05-12T14:08:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jiraAPI -->
+      </class> <!-- jiraAPI.jiraBasics_comment_updated -->
+      <class name="libraryAPI.staticJson">
+        <test-method status="PASS" signature="dynamicJson()[pri:0, instance:libraryAPI.staticJson@4f7d0008]" name="dynamicJson" duration-ms="283" started-at="2019-05-12T14:08:25Z" finished-at="2019-05-12T14:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicJson -->
+      </class> <!-- libraryAPI.staticJson -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

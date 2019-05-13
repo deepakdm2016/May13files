@@ -1,0 +1,8 @@
+package method_ReferencingThroughConstructor;
+
+public class testConsMapping {
+	
+	Runnable r= myClass::new;
+	
+
+}

@@ -1,0 +1,22 @@
+package predicateJoins;
+
+import java.util.function.Predicate;
+
+public class pjoin {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			int []x={0, 10, 20, 30, 40, 50, 60, 70};
+			Predicate<Integer> p1=i->(i>10);
+			System.out.println("Greater than 10");
+			
+			static void method1(Predicate<Integer> p,  int[] x)
+			{
+				
+				
+			}
+			
+	}
+
+}

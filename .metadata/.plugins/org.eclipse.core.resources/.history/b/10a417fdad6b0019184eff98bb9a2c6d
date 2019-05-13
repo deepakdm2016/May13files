@@ -1,0 +1,19 @@
+package CollectionAndArrays;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class sortedList {
+
+	public static void main(String[] args) {
+		List<String> l=new ArrayList<>();
+		l.add("Z");
+		l.add("A");
+		l.add("D");
+		l.add("K");
+		l.add("C");
+		
+		System.out.println("Befor sorting "+l);
+	}
+
+}

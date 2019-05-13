@@ -1,0 +1,22 @@
+package jiraAPI;
+
+import static io.restassured.RestAssured.given;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+
+public class jiraBasics {
+
+	@Test
+	public void jiraAPI()
+	{
+		
+		RestAssured.baseURI="http://localhost:8080";
+		given().header("Content-Type", "application/json").body
+		("{
+		   \"username\": \"deepakdm2016\",
+		    \"password\": \"Vinayaka@2019\"
+		}")		
+	}
+}

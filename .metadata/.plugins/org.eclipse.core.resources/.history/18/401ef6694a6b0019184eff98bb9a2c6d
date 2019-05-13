@@ -1,0 +1,8 @@
+package defaultMethods;
+
+class C implements A, A2 {
+	
+	
+	
+
+}

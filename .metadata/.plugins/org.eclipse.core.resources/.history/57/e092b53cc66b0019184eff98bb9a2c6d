@@ -1,0 +1,68 @@
+package HospitalUtils_testVargant;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
+
+public class hospital {
+
+	Map<patient, Date> hospital = new HashMap<patient, Date>();
+
+	public void addPatient(patient p) {
+		hospital.put(p, p.getDateOfRegistration());
+	}
+
+	public void getStats(Date statsDate) {
+		SimpleDateFormat sdf=new SimpleDateFormat("M/dd/yyyy");
+		
+		Set s = hospital.entrySet();
+		Iterator it = s.iterator();
+		int total = 0;
+		int localite = 0;
+		Map.Entry<patient, Date> list = (Map.Entry) it.next();
+		
+		
+		Set<patient> patient = hospital.keySet();
+		System.out.println(patient.size());
+		while(patient.iterator().hasNext())
+		{
+			patient.iterator().next();
+			System.out.println(patient.iterator().next());
+		}
+		
+		while (it.hasNext()) {
+			total++;
+
+			patient temp = (patient) list.getKey();
+			System.out.println(temp.isLocalite());
+			if (temp.isLocalite() == true ) {
+
+				
+				
+				System.out.println(new Date().compareTo(temp.getDateOfRegistration()));
+				String d1=sdf.format(statsDate);
+				String d2=sdf.format(temp.getDateOfRegistration());
+				
+ 				if(d1.equals(d2)){
+ 					localite++;
+ 					
+ 				}
+				//&& (new Date().compareTo(temp.getDateOfRegistration()) == 1)
+				System.out.println("I am here "+localite);
+
+			}
+			System.out.println(list.getValue());
+
+		}
+
+		System.out.println("total=" + total);
+		System.out.println("localite=" + localite);
+
+		double perc = ((double) localite / total) * 100;
+		System.out.println(("Percentage of localites are " + perc));
+	}
+
+}

@@ -1,0 +1,4 @@
+[0424/053941.702:ERROR:process_info.cc(359)] UncheckedAllocate
+[0424/053942.193:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\Deepak\AppData\Local\Temp\scoped_dir38772_29709\Crashpad\reports\588a130d-d158-4e52-a9b9-e93e1bc337ba.dmp: The process cannot access the file because it is being used by another process. (0x20)
+[0424/054737.280:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\Deepak\AppData\Local\Temp\scoped_dir36000_7951\Crashpad\reports\8af3019f-a843-40d6-91f9-7579f54984c5.dmp: The process cannot access the file because it is being used by another process. (0x20)
+[0424/055305.288:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\Deepak\AppData\Local\Temp\scoped_dir9612_7945\Crashpad\reports\23495f71-89a7-42b0-855a-8ef7f30e3ff9.dmp: The process cannot access the file because it is being used by another process. (0x20)

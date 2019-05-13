@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 5 elements to &apos;Java_interview_programs/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;Johnson_Controls&apos;&#x0D;&#x0A;- Destination element: &apos;Java_interview_programs/src/(default package)&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     MapDemo.java&#x0D;&#x0A;     CountCharacter.java&#x0D;&#x0A;     number.java&#x0D;&#x0A;     charcters.java&#x0D;&#x0A;     numbers.java" description="Copy compilation units" destination="=Java_interview_programs/src&lt;" element1="/src&lt;{MapDemo.java" element2="/src&lt;{CountCharacter.java" element3="/src&lt;{number.java" element4="/src&lt;{charcters.java" element5="/src&lt;{numbers.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1555939511337" units="5" version="1.0"/>
+</session>

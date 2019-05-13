@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Suite</th></tr><tr><td><a href="#t0">Test</a></td><td class="num">10</td><td class="num">0</td><td class="num attn">3</td><td class="num">5,891</td><td></td><td></td></tr></table><table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">jiraAPI.jiraBasics</td><td><a href="#m0">jiraAPI</a></td><td rowspan="1">1557730129252</td><td rowspan="1">53</td></tr><tr class="failedodd"><td rowspan="1">jiraAPI.jiraBasics_comment</td><td><a href="#m1">jiraAPI</a></td><td rowspan="1">1557730127347</td><td rowspan="1">719</td></tr><tr class="failedeven"><td rowspan="1">jiraAPI.jiraBasics_comment_updated</td><td><a href="#m2">jiraAPI</a></td><td rowspan="1">1557730129306</td><td rowspan="1">50</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">DeepakAcademy.mavenRevision.AppiumTest</td><td><a href="#m3">androidAutomation</a></td><td rowspan="1">1557730129357</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m4">iosAutomation</a></td><td rowspan="1">1557730129358</td><td rowspan="1">1</td></tr><tr class="passedodd"><td rowspan="2">DeepakAcademy.mavenRevision.RestTest</td><td><a href="#m5">restAPIAutomation</a></td><td rowspan="1">1557730129250</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m6">restAutomation</a></td><td rowspan="1">1557730129251</td><td rowspan="1">0</td></tr><tr class="passedeven"><td rowspan="2">DeepakAcademy.mavenRevision.SeleniumTest</td><td><a href="#m7">seleniumAutomation</a></td><td rowspan="1">1557730129248</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m8">webAutomation</a></td><td rowspan="1">1557730129249</td><td rowspan="1">0</td></tr><tr class="passedodd"><td rowspan="1">libraryAPI.staticJson</td><td><a href="#m9">dynamicJson</a></td><td rowspan="1">1557730129077</td><td rowspan="1">171</td></tr><tr class="passedeven"><td rowspan="1">restAssured.Post</td><td><a href="#m10">testData</a></td><td rowspan="1">1557730128972</td><td rowspan="1">104</td></tr><tr class="passedodd"><td rowspan="1">restAssured.PostDelete</td><td><a href="#m11">addAndDelete</a></td><td rowspan="1">1557730128087</td><td rowspan="1">885</td></tr><tr class="passedeven"><td rowspan="1">restAssured.Post_xml</td><td><a href="#m12">testData</a></td><td rowspan="1">1557730123514</td><td rowspan="1">3830</td></tr></tbody></table><h2>Test</h2><h3 id="m0">jiraAPI.jiraBasics#jiraAPI</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;403&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at jiraAPI.reusableMethods.getSessionId(reusableMethods.java:28)
+	at jiraAPI.jiraBasics.jiraAPI(jiraBasics.java:26)
+... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">jiraAPI.jiraBasics_comment#jiraAPI</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;403&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at jiraAPI.reusableMethods.getSessionId(reusableMethods.java:28)
+	at jiraAPI.jiraBasics_comment.jiraAPI(jiraBasics_comment.java:26)
+... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">jiraAPI.jiraBasics_comment_updated#jiraAPI</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;403&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at jiraAPI.reusableMethods.getSessionId(reusableMethods.java:28)
+	at jiraAPI.jiraBasics_comment_updated.jiraAPI(jiraBasics_comment_updated.java:24)
+... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">DeepakAcademy.mavenRevision.AppiumTest#androidAutomation</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">DeepakAcademy.mavenRevision.AppiumTest#iosAutomation</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">DeepakAcademy.mavenRevision.RestTest#restAPIAutomation</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">DeepakAcademy.mavenRevision.RestTest#restAutomation</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">DeepakAcademy.mavenRevision.SeleniumTest#seleniumAutomation</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">DeepakAcademy.mavenRevision.SeleniumTest#webAutomation</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m9">libraryAPI.staticJson#dynamicJson</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m10">restAssured.Post#testData</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m11">restAssured.PostDelete#addAndDelete</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m12">restAssured.Post_xml#testData</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

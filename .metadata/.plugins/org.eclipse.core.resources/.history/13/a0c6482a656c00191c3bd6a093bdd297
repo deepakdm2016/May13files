@@ -1,0 +1,8 @@
+package lambda_defaultMethods_Interface;
+
+public interface B implements defaultMethods {
+
+
+	}
+
+

@@ -1,0 +1,18 @@
+package java8;
+
+public class firstLambda implements A{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		A a =()-> System.out.println("Evaluating my first Lambda function");
+		a.myMethod();
+
+	}
+
+	@Override
+	public void myMethod() {
+		System.out.println("Evaluating my first Lambda function");
+	}
+
+}

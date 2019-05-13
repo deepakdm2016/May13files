@@ -1,0 +1,38 @@
+package setDemo;
+
+import java.util.HashSet;
+import java.util.Random;
+import java.util.Set;
+
+/*
+ * Set is a collection interface where duplicates are not allowed
+ * implemented by hash set, extended by sorted set extended by navigable set
+ * implemented by sorted set
+ */
+
+public class setDemoclass {
+	
+	public static void main(String v[])
+	{
+		Random obj=new Random();
+		Set<Object> l1=new HashSet<Object> ();
+		
+		((Random) l1).nextInt(1000);
+		((Random) l1).nextBoolean();
+		((Random) l1).nextFloat();
+		((Random) l1).nextGaussian();
+		
+		for(int i=0;i<5;i++)
+		{
+			l1.add(5);
+		}
+	
+		for(int i=0;i<500;i++)
+		{
+			l1.add(i);
+		}
+	
+		System.out.println(l1);
+	}
+
+}

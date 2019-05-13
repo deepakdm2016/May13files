@@ -1,0 +1,18 @@
+Comparable
+_____________
+
+java.lang
+
+obj1.compareTo(obj2)
+-ve value if obj1 has to come before obj2
++ve value if obj1 has to come after obj2
+0 if both obj1 and obj2 are same
+---------------------
+
+Comparator
+___________
+java.util
+compare(obj1, obj2)
+-ve value if obj1 has to come before obj2
++ve value if obj1 has to come after obj2
+0 if both obj1 and obj2 are same

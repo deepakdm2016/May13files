@@ -1,0 +1,14 @@
+package restAssured;
+
+import org.testng.annotations.Test;
+
+
+public class basics2 {
+	
+	@Test
+	public void testData()
+	{
+		
+	}
+
+}

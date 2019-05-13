@@ -1,0 +1,10 @@
+package Predicate;
+
+public class predicateJoins {
+	
+	public static void main(String v[])
+	{
+		
+	}
+
+}

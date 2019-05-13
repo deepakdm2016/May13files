@@ -1,0 +1,14 @@
+package genericsDemo;
+
+public class typeCastingProblem {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String[] s=new String[10];
+		s[0]="Virat";
+		s[1]="Kohli";
+		s[2]=123;
+	}
+
+}

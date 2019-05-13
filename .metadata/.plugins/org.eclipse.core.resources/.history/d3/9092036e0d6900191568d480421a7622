@@ -1,0 +1,26 @@
+
+public class mindTreeJava {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			int num=24;
+			mindTreeJava md=new mindTreeJava();
+			
+			System.out.println(md.checkFact(num));
+	}
+
+	private boolean checkFact(int num) {
+		// TODO Auto-generated method stub
+		int count=1;
+		
+		while(num>2)
+		{
+			if(num%2!=0) return false;
+			else
+			
+		}
+		return true;
+	}
+
+}

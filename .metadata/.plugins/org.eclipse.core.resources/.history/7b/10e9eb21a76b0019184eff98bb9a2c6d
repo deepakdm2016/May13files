@@ -1,0 +1,9 @@
+package Compare;
+
+public class strringBufferComparator implements comparator {
+
+
+
+	}
+
+}

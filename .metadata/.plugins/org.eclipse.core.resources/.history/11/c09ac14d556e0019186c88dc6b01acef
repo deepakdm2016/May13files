@@ -1,0 +1,31 @@
+package DeepakAcademy.DeepakE2EProject;
+
+import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import junit.framework.Assert;
+import pageObjects.landingPage;
+import pageObjects.loginPage;
+import resources.Base;
+
+public class validateLandingPageTitle extends Base {
+	
+	@Test(dataProvider="testData")
+	public void basePageNavigation(String email, String pwd, String url) throws IOException
+	{
+		WebDriver driver=initializeDriver();
+		driver.manage().deleteAllCookies();
+		driver.get(url);
+		landingPage lp=new landingPage(driver);
+		String act=lp.getTitle().getText();
+		Assert.assertEquals("FEATURED COURSES", act);
+		
+			
+	}
+	
+	
+	
+}

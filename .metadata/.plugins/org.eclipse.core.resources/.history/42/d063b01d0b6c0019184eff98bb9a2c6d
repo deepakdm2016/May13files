@@ -1,0 +1,9 @@
+package lambda_inbuilt;
+
+public class testCompare {
+
+	public static void main()
+	{
+		
+	}
+}

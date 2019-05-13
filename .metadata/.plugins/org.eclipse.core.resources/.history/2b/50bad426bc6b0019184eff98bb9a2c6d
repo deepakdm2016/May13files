@@ -1,0 +1,16 @@
+
+public class Test {
+	
+	public static void main(String v[])
+	{
+		paymentType pt=paymentType.CREDITCARD;
+		System.out.println(pt);
+		paymentType[] values = pt.values();
+		for(paymentType pt:values)
+		{
+			
+		}
+		
+	}
+
+}

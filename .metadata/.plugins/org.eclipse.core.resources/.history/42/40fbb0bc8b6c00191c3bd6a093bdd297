@@ -1,0 +1,14 @@
+package dataDrivePropertyFile;
+
+import java.io.FileInputStream;
+import java.util.Properties;
+
+public class testGetPropertyFileAttributes {
+
+	public static void main(String[] args) {
+			
+		Properties prop=new Properties();
+		prop.load(new FileInputStream("C:\\Users\\Deepak\\Selenium\\dataDrivePropertyFile\\src\\dataDrivePropertyFile\\dataDrive.properties"));
+	}
+
+}

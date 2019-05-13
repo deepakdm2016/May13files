@@ -1,0 +1,10 @@
+package predicates;
+
+public class lengthOfString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

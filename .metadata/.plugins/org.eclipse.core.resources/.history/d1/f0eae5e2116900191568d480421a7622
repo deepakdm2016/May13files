@@ -1,0 +1,11 @@
+package mindTree_inheritence;
+public class derived extends base {
+	derived()
+	{
+		addvalue(count);
+	}
+	private void addvalue(int i) {
+		count+=10;
+	}
+	
+}

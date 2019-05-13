@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="Deepak" value="389524"/>
+  <test name="Test(failed)">
+    <parameter name="Deepak" value="389524"/>
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test123.copy.testA">
+        <methods>
+          <include name="getNumberDoubleTest123"/>
+          <include name="getNumberTest123"/>
+        </methods>
+      </class> <!-- test123.copy.testA -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

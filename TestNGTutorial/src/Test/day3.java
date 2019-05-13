@@ -1,0 +1,25 @@
+package Test;
+
+import org.testng.annotations.Test;
+
+public class day3 {
+
+	@Test
+	public void webLogin()
+	{
+		System.out.println("web login");
+	}
+	
+	
+	@Test
+	public void MobileLogincarLoan()
+	{
+		System.out.println("Mobile Login");
+	}
+	
+	@Test
+	public void loginApiCarLoan()
+	{
+		System.out.println("Login API car Loan");
+	}
+}

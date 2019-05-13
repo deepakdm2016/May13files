@@ -1,0 +1,18 @@
+package generics_Java;
+
+public class useGeneric {
+
+	public static void main(String[] args) {
+
+		generic a=new generic<Integer>(10);
+		generic b=new generic<StringBuffer>("Hello");
+		
+		a.setT(10);
+		b.setT("Hello");
+		
+		System.out.println(a.getT());
+		System.out.println(b.getT());
+
+	}
+
+}

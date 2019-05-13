@@ -1,0 +1,7 @@
+package mindTree_inheritence;
+
+public class generics<T> {
+	
+	Object o1=new Object(T);
+
+}

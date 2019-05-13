@@ -1,0 +1,26 @@
+package HCL;
+
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+
+public class stringTokenizer {
+	
+	public static void main(String v[])
+	{
+		String a="he ia a good boy? isn't it";
+		
+		a=a.replaceAll("[^A-Z a-z]", " ");
+		String[] abc=a.split(" ");
+		
+		for(int i=0;i<abc.length;i++)
+		{
+			if(abc[i]!= null)
+			System.out.println(abc[i]);
+		}
+	
+	}
+
+}

@@ -1,0 +1,28 @@
+package HospitalUtils;
+
+import java.util.Date;
+
+public class hospitalManagement {
+
+	@SuppressWarnings("deprecation")
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		hospital manipal=new hospital();
+		patient p1=new patient("Deepak","Mysore", new Date());
+		patient p2=new patient("Shyam","Rajasthan", new Date());
+		patient p3=new patient("Vinithra","Bangalore", new Date());
+		patient p4=new patient("Pavithra","Bangalore", );
+		patient p5=new patient("Sandeep","Kochin", new Date());
+		
+		manipal.addPatient(p1);
+		manipal.addPatient(p2);
+		manipal.addPatient(p3);
+		
+		manipal.addPatient(p5);
+		manipal.addPatient(p4);
+
+		manipal.getStats();
+			
+	}
+
+}

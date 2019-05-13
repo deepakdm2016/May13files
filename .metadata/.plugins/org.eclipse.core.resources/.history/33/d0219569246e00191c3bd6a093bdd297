@@ -1,0 +1,11 @@
+package generics_Java;
+
+public class useGeneric {
+
+	public static void main(String[] args) {
+
+		generic a<Integer>=new generic(Integer);
+		
+	}
+
+}

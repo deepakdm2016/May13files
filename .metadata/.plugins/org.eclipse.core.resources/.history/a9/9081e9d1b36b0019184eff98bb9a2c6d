@@ -1,0 +1,11 @@
+package genericsDemo;
+
+public class anyRunnableTest {
+
+	public static void main(String[] args) {
+
+		anyRunnable<Thread> t1=new anyRunnable<Thread>();
+		
+	}
+
+}

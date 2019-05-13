@@ -1,0 +1,6 @@
+package restAssured;
+
+@Test
+public class basics2 {
+
+}

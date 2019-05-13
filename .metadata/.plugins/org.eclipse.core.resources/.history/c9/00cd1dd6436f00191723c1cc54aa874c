@@ -1,0 +1,11 @@
+package HCL;
+
+public class mainShape {
+
+	public static void main(String v[])
+	{
+		shape A=new circle(12);
+		
+		System.out.println("Area of cirle "+A.Area(A.getLength()));
+	}
+}

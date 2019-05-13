@@ -1,0 +1,31 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+
+public class fluentWait {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Deepak\\Selenium\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+
+		WebDriverWait w = new WebDriverWait(driver, 15);
+
+		driver.get("http://the-internet.herokuapp.com/dynamic_loading/1");
+		
+		driver.findElement(By.xpath("//button[contains(text(),'Start')]")).click();
+		w.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//h4[contains(text(),'Hello World!')]")));
+
+		WebElement findElement = driver.findElement(By.xpath("//h4[contains(text(),'Hello World!')]"));
+		Thread.sleep(15);
+		System.out.println(findElement.getText());
+		Assert.assertTrue(findElement.getText().equals("Hello World!"));
+		driver.close();
+
+	}
+
+}

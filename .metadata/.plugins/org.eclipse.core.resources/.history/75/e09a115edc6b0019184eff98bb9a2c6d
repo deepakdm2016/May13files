@@ -1,0 +1,13 @@
+package java8;
+
+public class firstLambda implements A{
+
+	public static void main(String[] args) {
+		
+		A a =()-> System.out.println("Evaluating my first Lambda function");
+		a.myMethod();
+
+	}
+
+
+}

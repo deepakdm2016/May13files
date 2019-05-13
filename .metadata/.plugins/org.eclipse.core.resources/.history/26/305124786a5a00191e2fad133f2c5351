@@ -1,0 +1,9 @@
+package Test;
+
+public class day1 {
+
+	public void demo()
+	{
+		System.out.println("Hello world");
+	}
+}

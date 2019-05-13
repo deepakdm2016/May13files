@@ -1,0 +1,5 @@
+package lambda_defaultMethods_Interface;
+
+public interface defaultMethods {
+
+}

@@ -1,0 +1,14 @@
+09:37:19.475 [main] INFO  alpha.Demo - It is an in formation
+09:37:19.480 [main] FATAL alpha.Demo - It is a fatal error
+09:37:26.965 [main] ERROR alpha.Demo - It is an error
+09:37:26.968 [main] INFO  alpha.Demo - It is an in formation
+09:37:26.968 [main] FATAL alpha.Demo - It is a fatal error
+09:38:33.190 [main] ERROR alpha.Demo - It is an error
+09:38:33.193 [main] INFO  alpha.Demo - It is an in formation
+09:38:33.193 [main] FATAL alpha.Demo - It is a fatal error
+09:38:38.920 [main] ERROR alpha.Demo - It is an error
+09:38:38.923 [main] INFO  alpha.Demo - It is an in formation
+09:38:38.930 [main] FATAL alpha.Demo - It is a fatal error
+09:39:15.068 [main] ERROR alpha.Demo - It is an error
+09:39:15.077 [main] INFO  alpha.Demo - It is an in formation
+09:39:15.080 [main] FATAL alpha.Demo - It is a fatal error

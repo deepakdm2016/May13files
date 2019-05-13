@@ -1,0 +1,63 @@
+import java.time.Duration;
+import java.util.NoSuchElementException;
+import java.util.concurrent.TimeUnit;
+import java.util.function.Function;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+
+public class fluentWait {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Deepak\\Selenium\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+
+
+		driver.get("http://the-internet.herokuapp.com/dynamic_loading/1");
+		
+		driver.findElement(By.cssSelector("[id='start']  button")).click();
+
+		/* WebDriverWait w = new WebDriverWait(driver, 15);
+		w.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//h4[contains(text(),'Hello World!')]")));
+		WebElement findElement = driver.findElement(By.xpath("//h4[contains(text(),'Hello World!')]"));
+		Thread.sleep(15);
+		System.out.println(findElement.getText());
+		Assert.assertTrue(findElement.getText().equals("Hello World!"));
+		driver.close();
+		*/
+		
+		Wait wait=new FluentWait(driver).withTimeout(15, TimeUnit.SECONDS).
+				pollingEvery(5, TimeUnit.SECONDS).ignoring(NoSuchElementException.class);
+		
+		WebElement foo=wait.until(new Function<WebDriver, WebElement>() {
+			
+			public WebElement apply(WebDriver driver)
+			{
+				return driver.findElement(By.cssSelector("[id='finish'] h4"));
+			}
+			
+		});
+				
+		
+		Wait wait1 = new FluentWait(driver reference)
+				.withTimeout(timeout, SECONDS)
+				.pollingEvery(timeout, SECONDS)
+				.ignoring(Exception.class);
+
+				WebElement foo=wait.until(new Function<WebDriver, WebElement>() {
+				public WebElement applyy(WebDriver driver) {
+				return driver.findElement(By.id("foo"));
+				}
+				});
+		
+	}
+
+}

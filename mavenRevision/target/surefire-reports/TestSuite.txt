@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 10.296 s <<< FAILURE! - in TestSuite
+jiraAPI(jiraAPI.jiraBasics_comment)  Time elapsed: 0.811 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <403>.
+
+	at jiraAPI.jiraBasics_comment.jiraAPI(jiraBasics_comment.java:26)
+
+jiraAPI(jiraAPI.jiraBasics)  Time elapsed: 0.381 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <403>.
+
+	at jiraAPI.jiraBasics.jiraAPI(jiraBasics.java:26)
+
+jiraAPI(jiraAPI.jiraBasics_comment_updated)  Time elapsed: 0.746 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <403>.
+
+	at jiraAPI.jiraBasics_comment_updated.jiraAPI(jiraBasics_comment_updated.java:24)
+

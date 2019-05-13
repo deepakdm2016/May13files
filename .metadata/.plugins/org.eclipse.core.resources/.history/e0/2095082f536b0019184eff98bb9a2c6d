@@ -1,0 +1,17 @@
+package methodMapping;
+
+public class myClass {
+
+	public void myMethod2(int i)
+	{
+		System.out.println(i);
+	}
+	public static void main(String[] args) {
+
+		myInterface f=i -> System.out.println(i);
+		f.myMethod(10);
+		
+		
+	}
+
+}

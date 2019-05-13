@@ -1,0 +1,45 @@
+package DeepakAcademy.DeepakE2EProject;
+
+import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import pageObjects.landingPage;
+import pageObjects.loginPage;
+import resources.Base;
+
+public class homePage extends Base {
+	
+	@Test(dataProvider=testData)
+	public void basePageNavigation() throws IOException
+	{
+		WebDriver driver=initializeDriver();
+		driver.manage().deleteAllCookies();
+		driver.get("http://qaclickacademy.com");
+		landingPage lp=new landingPage(driver);
+		lp.getLogin().click();
+		
+		loginPage loginP=new loginPage(driver);
+		loginP.emailbox().sendKeys("abc@gmail.com");
+		loginP.pwdbox().sendKeys("123456");
+		loginP.loginButton().click();
+		
+	}
+	
+	
+	@DataProvider
+	public Object[][] testData()
+	{
+		Object[][] test=new Object[2][2];
+		test[0][0]="deepak.dm@tcs.com";
+		test[0][1]="pwd@123";
+		
+		test[1][0]="deepakdm2016@gmail.com";
+		test[1][1]="pwdd@123";
+		return test;
+		
+	}
+	
+}

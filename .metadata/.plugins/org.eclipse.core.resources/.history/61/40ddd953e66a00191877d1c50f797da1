@@ -1,0 +1,19 @@
+package CucumberOptions;
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+import cucumber.api.testng.AbstractTestNGCucumberTests;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features = "src/test/java/features1",
+					glue="stepDefination1")
+
+
+//AbstractTestNGCucumberTests is needed to convert junit to testNG by using pom defined dependency for testng -cucumber - junit integrations
+public class TestRunner{
+	
+	
+
+}

@@ -1,0 +1,11 @@
+package inbuiltInterfaceLambda;
+
+public class testRunnable {
+
+	public static void main(String v[])
+	{
+		myRunnable r=new myRunnable();
+		Thread t=new Thread(r);
+		t.start();
+	}
+}

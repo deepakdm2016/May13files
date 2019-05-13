@@ -1,0 +1,15 @@
+package generics_Java;
+
+public class generic<T> {
+	
+	Object T;
+
+	public Object getT() {
+		return T;
+	}
+
+	public void setT(Object t) {
+		T = t;
+	}
+	
+}

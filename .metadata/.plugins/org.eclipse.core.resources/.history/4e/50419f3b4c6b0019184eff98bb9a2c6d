@@ -1,0 +1,10 @@
+package predicates;
+import java.util.function.Predicate;
+public class greaterThan20 {
+
+	public static void main(String[] args) {
+
+		Predicate<Integer>
+	}
+
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50" started-at="2019-04-25T06:23:33Z" finished-at="2019-04-25T06:23:33Z">
+    <groups>
+      <group name="regression">
+        <method signature="basicClass1.method1(java.lang.String)[pri:0, instance:test.basicClass1@399c4be1]" name="method1" class="test.basicClass1"/>
+        <method signature="basicClass2.method2(int, int, int)[pri:0, instance:test.basicClass2@5b94b04d]" name="method2" class="test.basicClass2"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="basicClass1.method1(java.lang.String)[pri:0, instance:test.basicClass1@399c4be1]" name="method1" class="test.basicClass1"/>
+        <method signature="basicClass1.method2()[pri:0, instance:test.basicClass1@399c4be1]" name="method2" class="test.basicClass1"/>
+        <method signature="basicClass2.method2(int, int, int)[pri:0, instance:test.basicClass2@5b94b04d]" name="method2" class="test.basicClass2"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test2" duration-ms="33" started-at="2019-04-25T06:23:33Z" finished-at="2019-04-25T06:23:33Z">
+      <class name="test2.basicClass2">
+        <test-method status="PASS" signature="method2()[pri:0, instance:test2.basicClass2@5c90e579]" name="method2" duration-ms="2" started-at="2019-04-25T06:23:33Z" finished-at="2019-04-25T06:23:33Z">
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method1()[pri:0, instance:test2.basicClass2@5c90e579]" name="method1" duration-ms="2" started-at="2019-04-25T06:23:33Z" depends-on-methods="test2.basicClass2.method2" finished-at="2019-04-25T06:23:33Z">
+        </test-method> <!-- method1 -->
+      </class> <!-- test2.basicClass2 -->
+      <class name="test2.basicClass1">
+        <test-method status="PASS" signature="method1()[pri:0, instance:test2.basicClass1@58ea606c]" name="method1" duration-ms="9" started-at="2019-04-25T06:23:33Z" finished-at="2019-04-25T06:23:33Z">
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:test2.basicClass1@58ea606c]" name="method2" duration-ms="1" started-at="2019-04-25T06:23:33Z" finished-at="2019-04-25T06:23:33Z">
+        </test-method> <!-- method2 -->
+      </class> <!-- test2.basicClass1 -->
+    </test> <!-- Test2 -->
+    <test name="Test" duration-ms="50" started-at="2019-04-25T06:23:33Z" finished-at="2019-04-25T06:23:33Z">
+      <class name="test.basicClass2">
+        <test-method status="PASS" signature="method2(int, int, int)[pri:0, instance:test.basicClass2@5b94b04d]" name="method2" duration-ms="1" started-at="2019-04-25T06:23:33Z" data-provider="method3" finished-at="2019-04-25T06:23:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method2(int, int, int)[pri:0, instance:test.basicClass2@5b94b04d]" name="method2" duration-ms="1" started-at="2019-04-25T06:23:33Z" data-provider="method3" finished-at="2019-04-25T06:23:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- method2 -->
+      </class> <!-- test.basicClass2 -->
+      <class name="test.basicClass1">
+        <test-method status="PASS" signature="method1(java.lang.String)[pri:0, instance:test.basicClass1@399c4be1]" name="method1" duration-ms="26" started-at="2019-04-25T06:23:33Z" finished-at="2019-04-25T06:23:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bad]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:test.basicClass1@399c4be1]" name="method2" duration-ms="2" started-at="2019-04-25T06:23:33Z" finished-at="2019-04-25T06:23:33Z">
+        </test-method> <!-- method2 -->
+      </class> <!-- test.basicClass1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,8 @@
+22:01:03.608 [main] INFO  beta.Demo - Beta - Info- Object is present
+22:01:03.611 [main] DEBUG beta.Demo - Beta - debug- Object is present
+22:01:03.611 [main] ERROR beta.Demo - Beta - error- Object is present
+22:01:03.611 [main] TRACE beta.Demo - Beta - trace- Object is present
+22:01:03.611 [main] FATAL beta.Demo - Beta - fatal- Object is present
+22:04:04.774 [main] INFO  beta.Demo - Beta - Info- Object is present
+22:04:04.777 [main] DEBUG beta.Demo - Beta - debug- Object is present
+22:04:04.777 [main] ERROR beta.Demo - Beta - error- Object is present

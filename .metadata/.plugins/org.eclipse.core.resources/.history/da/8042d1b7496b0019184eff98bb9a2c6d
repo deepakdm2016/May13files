@@ -1,0 +1,13 @@
+package defaultMethods;
+
+class C implements A {
+	
+	public  void m1()
+	{
+		
+		System.out.println("m1 insde C");
+	}
+	
+	
+
+}

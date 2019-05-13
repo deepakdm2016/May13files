@@ -1,0 +1,9 @@
+package lambda8;
+
+public class commomPrinter {
+
+	public static Runnable r1 =() -> System.out.println("It is my first functional expression");
+
+	interface FormatString{String format(String value);}
+	
+}

@@ -1,0 +1,7 @@
+21:01:32.022 [main] DEBUG resources.Base - Firefox Launched
+21:01:34.640 [main] DEBUG resources.Base - Validating if contact list is present or not
+21:01:38.939 [main] DEBUG resources.Base - Firefox Launched
+21:01:41.145 [main] DEBUG resources.Base - Validating if title is present or not
+21:01:41.934 [main] INFO  resources.Base - screenshot taken basePageNavigationscreenShot.png
+21:01:46.924 [main] DEBUG resources.Base - Firefox Launched
+21:01:49.624 [main] DEBUG resources.Base - url Launched

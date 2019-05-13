@@ -1,0 +1,14 @@
+package lambda_inbuilt;
+
+import java.util.Comparator;
+
+public class lambdaCompareTo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Comparator c=(String s1,String s2) ->  retutn s1.compareTo(s2) ;
+		
+	}
+
+}

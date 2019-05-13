@@ -1,0 +1,10 @@
+package lambda8;
+
+public class syntaxAndBindingLambdas {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

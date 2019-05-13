@@ -1,0 +1,16 @@
+
+public class mindTreeJava {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			int num=24;
+			System.out.println(checkFact(num));
+	}
+
+	private boolean checkFact(int num) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

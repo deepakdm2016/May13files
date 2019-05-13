@@ -1,0 +1,22 @@
+package seleniumGrid;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+public class remotetest {
+
+	public static void main(String[] args) throws MalformedURLException {
+
+		DesiredCapabilities chrome = DesiredCapabilities.chrome();
+		chrome.setBrowserName("chrome");
+		chrome.setPlatform(Platform.WINDOWS);
+		WebDriver driver=new RemoteWebDriver(new URL("http://192.168.0.101:4444/wd/hub/"),chrome);
+		driver.get("http://www.google.com");
+	}
+
+}

@@ -1,0 +1,21 @@
+
+public class seperateNumbersFromString {
+
+	public static void main(String v[])
+	{
+		String test="abcd1234UIh&*";
+		char ch[]=test.toCharArray();
+		String output="";
+		
+		for(int i=0;i<test.length();i++)
+		{
+			if(ch[i]>=0 && ch[i]<=9)
+			output=output+ch[i];
+		}
+		System.out.println("Hi");
+
+		System.out.println(output);
+		
+		
+	}
+}

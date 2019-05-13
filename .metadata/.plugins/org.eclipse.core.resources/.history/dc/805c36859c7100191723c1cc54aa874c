@@ -1,0 +1,15 @@
+{
+	
+		"fields": {
+			"project":
+			{
+				"key": "RA"
+			},
+			"summary": "debitcard defect - Deepakdm",
+			"description": "Creating the second defect",
+			"issuetype":{
+				"name":"Bug"
+			}
+		}
+	
+}

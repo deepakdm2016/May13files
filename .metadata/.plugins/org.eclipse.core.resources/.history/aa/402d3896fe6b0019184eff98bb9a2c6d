@@ -1,0 +1,10 @@
+package seleniumGrid;
+
+public class remotetest {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package test123;
+
+import java.util.Random;
+
+public class testA {
+	
+	@Test
+	public void getNumber()
+	{
+		Random r=new Random();
+		System.out.print(r.nextInt(50));
+	}
+
+}

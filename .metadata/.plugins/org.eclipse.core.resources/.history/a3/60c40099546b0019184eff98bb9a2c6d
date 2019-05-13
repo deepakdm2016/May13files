@@ -1,0 +1,13 @@
+package methodMappingConstructors;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		myInterface f1=s->new myClass(s);
+		f1.get("Deepak  using lambdas");
+		f1.get("Nagesh  using lambdas");
+		
+	}
+
+}

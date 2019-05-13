@@ -1,0 +1,5 @@
+package CollectionAndArrays;
+
+public class myComparator implements Comparator<String> {
+
+}

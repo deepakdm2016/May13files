@@ -1,0 +1,15 @@
+package HCL;
+
+public class repeatedWordSentence {
+
+	public static void main(String[] args) {
+
+		String ab="He is a goodgood good good guy\nhello! thank you and \nWelcome\nbyebye bye bye";
+		String output="";
+		
+				
+				
+		
+	}
+
+}

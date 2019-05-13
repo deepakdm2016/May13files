@@ -1,0 +1,443 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< DeepakAcademy:mavenRevision >---------------------
+[INFO] Building mavenRevision 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ mavenRevision ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Deepak\Selenium\mavenRevision\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ mavenRevision ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ mavenRevision ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Deepak\Selenium\mavenRevision\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ mavenRevision ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M3:test (default-test) @ mavenRevision ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+HTTP/1.1 200 OK
+Date: Sun, 12 May 2019 09:06:36 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/xml;charset=UTF-8
+
+<response>
+  <status>OK</status>
+  <place_id>0d255a39b053c5a87feca29a8b8f38cd</place_id>
+  <scope>APP</scope>
+  <reference>d093c18402f23a05939ebcf3f96556f8d093c18402f23a05939ebcf3f96556f8</reference>
+  <id>d093c18402f23a05939ebcf3f96556f8</id>
+</response>
+<?xml version="1.0"?>
+<response><status>OK</status><place_id>0d255a39b053c5a87feca29a8b8f38cd</place_id><scope>APP</scope><reference>d093c18402f23a05939ebcf3f96556f8d093c18402f23a05939ebcf3f96556f8</reference><id>d093c18402f23a05939ebcf3f96556f8</id></response>
+
+Place Id: 0d255a39b053c5a87feca29a8b8f38cd
+Request method:	POST
+Request URI:	http://localhost:8080/rest/auth/1/session
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "deepakdm2016",
+    "password": "Vinayaka@2019"
+}
+HTTP/1.1 200 
+X-AREQUESTID: 876x790x1
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-ASEN: SEN-L13569949
+Set-Cookie: atlassian.xsrf.token=B7R0-6FCB-ORDS-MTCS_387112d9fe9126a252f03ec1eafd2b0be471ca87_lout; Path=/
+X-AUSERNAME: anonymous
+Set-Cookie: JSESSIONID=D5AD51C384913674CC2620DE65F4237E; Path=/; HttpOnly
+X-Seraph-LoginReason: OK
+Cache-Control: no-cache, no-store, no-transform
+Content-Encoding: gzip
+Vary: User-Agent
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 12 May 2019 09:06:12 GMT
+
+{
+    "session": {
+        "name": "JSESSIONID",
+        "value": "D5AD51C384913674CC2620DE65F4237E"
+    },
+    "loginInfo": {
+        "failedLoginCount": 1,
+        "loginCount": 32,
+        "lastFailedLoginTime": "2019-05-08T09:31:30.134+0530",
+        "previousLoginTime": "2019-05-12T14:30:42.603+0530"
+    }
+}
+{"session":{"name":"JSESSIONID","value":"D5AD51C384913674CC2620DE65F4237E"},"loginInfo":{"failedLoginCount":1,"loginCount":32,"lastFailedLoginTime":"2019-05-08T09:31:30.134+0530","previousLoginTime":"2019-05-12T14:30:42.603+0530"}}
+Session Id: D5AD51C384913674CC2620DE65F4237E
+io.restassured.path.json.JsonPath@5af28b27
+Request method:	POST
+Request URI:	http://localhost:8080/rest/api/2/issue/RA-4/comment
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Cookie=JSESSIONID=D5AD51C384913674CC2620DE65F4237E
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "body": "This is a comment that only administrators can see for RC4 - updated - updated",
+    "visibility": {
+        "type": "role",
+        "value": "Administrators"
+    }
+}
+HTTP/1.1 201 
+X-AREQUESTID: 876x791x1
+X-ASESSIONID: gl0uh6
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-ASEN: SEN-L13569949
+X-Seraph-LoginReason: OK
+Set-Cookie: atlassian.xsrf.token=B7R0-6FCB-ORDS-MTCS_b80ddabd1f786faba1c2577aa58836eda236c556_lin; Path=/
+X-AUSERNAME: deepakdm2016
+Location: http://localhost:8080/rest/api/2/issue/10100/comment/10109
+Cache-Control: no-cache, no-store, no-transform
+Content-Encoding: gzip
+Vary: User-Agent
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 12 May 2019 09:06:12 GMT
+
+{
+    "self": "http://localhost:8080/rest/api/2/issue/10100/comment/10109",
+    "id": "10109",
+    "author": {
+        "self": "http://localhost:8080/rest/api/2/user?username=deepakdm2016",
+        "name": "deepakdm2016",
+        "key": "deepakdm2016",
+        "emailAddress": "deepakdm2016@gmail.com",
+        "avatarUrls": {
+            "48x48": "http://localhost:8080/secure/useravatar?avatarId=10505",
+            "24x24": "http://localhost:8080/secure/useravatar?size=small&avatarId=10505",
+            "16x16": "http://localhost:8080/secure/useravatar?size=xsmall&avatarId=10505",
+            "32x32": "http://localhost:8080/secure/useravatar?size=medium&avatarId=10505"
+        },
+        "displayName": "deepakdm2016@gmail.com",
+        "active": true,
+        "timeZone": "Asia/Calcutta"
+    },
+    "body": "This is a comment that only administrators can see for RC4 - updated - updated",
+    "updateAuthor": {
+        "self": "http://localhost:8080/rest/api/2/user?username=deepakdm2016",
+        "name": "deepakdm2016",
+        "key": "deepakdm2016",
+        "emailAddress": "deepakdm2016@gmail.com",
+        "avatarUrls": {
+            "48x48": "http://localhost:8080/secure/useravatar?avatarId=10505",
+            "24x24": "http://localhost:8080/secure/useravatar?size=small&avatarId=10505",
+            "16x16": "http://localhost:8080/secure/useravatar?size=xsmall&avatarId=10505",
+            "32x32": "http://localhost:8080/secure/useravatar?size=medium&avatarId=10505"
+        },
+        "displayName": "deepakdm2016@gmail.com",
+        "active": true,
+        "timeZone": "Asia/Calcutta"
+    },
+    "created": "2019-05-12T14:36:12.986+0530",
+    "updated": "2019-05-12T14:36:12.986+0530",
+    "visibility": {
+        "type": "role",
+        "value": "Administrators"
+    }
+}
+{"self":"http://localhost:8080/rest/api/2/issue/10100/comment/10109","id":"10109","author":{"self":"http://localhost:8080/rest/api/2/user?username=deepakdm2016","name":"deepakdm2016","key":"deepakdm2016","emailAddress":"deepakdm2016@gmail.com","avatarUrls":{"48x48":"http://localhost:8080/secure/useravatar?avatarId=10505","24x24":"http://localhost:8080/secure/useravatar?size=small&avatarId=10505","16x16":"http://localhost:8080/secure/useravatar?size=xsmall&avatarId=10505","32x32":"http://localhost:8080/secure/useravatar?size=medium&avatarId=10505"},"displayName":"deepakdm2016@gmail.com","active":true,"timeZone":"Asia/Calcutta"},"body":"This is a comment that only administrators can see for RC4 - updated - updated","updateAuthor":{"self":"http://localhost:8080/rest/api/2/user?username=deepakdm2016","name":"deepakdm2016","key":"deepakdm2016","emailAddress":"deepakdm2016@gmail.com","avatarUrls":{"48x48":"http://localhost:8080/secure/useravatar?avatarId=10505","24x24":"http://localhost:8080/secure/useravatar?size=small&avatarId=10505","16x16":"http://localhost:8080/secure/useravatar?size=xsmall&avatarId=10505","32x32":"http://localhost:8080/secure/useravatar?size=medium&avatarId=10505"},"displayName":"deepakdm2016@gmail.com","active":true,"timeZone":"Asia/Calcutta"},"created":"2019-05-12T14:36:12.986+0530","updated":"2019-05-12T14:36:12.986+0530","visibility":{"type":"role","value":"Administrators"}}
+Defect Id:10109
+io.restassured.internal.RestAssuredResponseImpl@3bffddff
+{"status":"OK","place_id":"eeecf99f6fdfce95603ae86d64589702","scope":"APP","reference":"fb00c9a11638255ca4ac0bd55144e917fb00c9a11638255ca4ac0bd55144e917","id":"fb00c9a11638255ca4ac0bd55144e917"}
+io.restassured.path.json.JsonPath@66971f6b
+eeecf99f6fdfce95603ae86d64589702
+{"msg":"Delete operation failed, looks like the data doesn't exists"}
+io.restassured.path.json.JsonPath@759fad4
+HTTP/1.1 200 OK
+Date: Sun, 12 May 2019 09:06:39 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "5bb4de6389597e09d0e2a669da18c09c",
+    "scope": "APP",
+    "reference": "1f3720350df6cd6ba6e1c2763e7e35041f3720350df6cd6ba6e1c2763e7e3504",
+    "id": "1f3720350df6cd6ba6e1c2763e7e3504"
+}
+step1
+Body:
+{
+    "name": "Learn 123 Deepak Appium",
+    "isbn": "Deepak 7 1",
+    "aisle": "Deepak 7 0",
+    "author": "John Deepak Foe"
+}
+{
+    "Msg": "successfully added",
+    "ID": "Deepak 7 1Deepak 7 0"
+}
+io.restassured.internal.RestAssuredResponseImpl@552518c3
+{"Msg":"successfully added","ID":"Deepak 7 1Deepak 7 0"}
+Deepak 7 1Deepak 7 0
+selenium Automation
+selenium web Automation
+rest ios Automation
+rest Automation
+Request method:	POST
+Request URI:	http://localhost:8080/rest/auth/1/session
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "deepakdm2016",
+    "password": "Vinayaka@2019"
+}
+HTTP/1.1 200 
+X-AREQUESTID: 876x792x1
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-ASEN: SEN-L13569949
+Set-Cookie: atlassian.xsrf.token=B7R0-6FCB-ORDS-MTCS_1e111c802ff588b7db35341f20e2568328627129_lout; Path=/
+X-AUSERNAME: anonymous
+Set-Cookie: JSESSIONID=7C7E6DE559C8E4AF3F5AE0A3CA28BEDF; Path=/; HttpOnly
+X-Seraph-LoginReason: OK
+Cache-Control: no-cache, no-store, no-transform
+Content-Encoding: gzip
+Vary: User-Agent
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 12 May 2019 09:06:14 GMT
+
+{
+    "session": {
+        "name": "JSESSIONID",
+        "value": "7C7E6DE559C8E4AF3F5AE0A3CA28BEDF"
+    },
+    "loginInfo": {
+        "failedLoginCount": 1,
+        "loginCount": 33,
+        "lastFailedLoginTime": "2019-05-08T09:31:30.134+0530",
+        "previousLoginTime": "2019-05-12T14:36:12.774+0530"
+    }
+}
+{"session":{"name":"JSESSIONID","value":"7C7E6DE559C8E4AF3F5AE0A3CA28BEDF"},"loginInfo":{"failedLoginCount":1,"loginCount":33,"lastFailedLoginTime":"2019-05-08T09:31:30.134+0530","previousLoginTime":"2019-05-12T14:36:12.774+0530"}}
+Session Id: 7C7E6DE559C8E4AF3F5AE0A3CA28BEDF
+io.restassured.path.json.JsonPath@7a56812e
+HTTP/1.1 201 
+X-AREQUESTID: 876x793x1
+X-ASESSIONID: 1j7zm73
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-ASEN: SEN-L13569949
+X-Seraph-LoginReason: OK
+Set-Cookie: atlassian.xsrf.token=B7R0-6FCB-ORDS-MTCS_9925b5993134518e044bc96d3fae9696c4df2b81_lin; Path=/
+X-AUSERNAME: deepakdm2016
+Cache-Control: no-cache, no-store, no-transform
+Content-Encoding: gzip
+Vary: User-Agent
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 12 May 2019 09:06:14 GMT
+
+{
+    "id": "10104",
+    "key": "RA-8",
+    "self": "http://localhost:8080/rest/api/2/issue/10104"
+}
+{"id":"10104","key":"RA-8","self":"http://localhost:8080/rest/api/2/issue/10104"}
+Defect Id:10104
+Request method:	POST
+Request URI:	http://localhost:8080/rest/auth/1/session
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "deepakdm2016",
+    "password": "Vinayaka@2019"
+}
+HTTP/1.1 200 
+X-AREQUESTID: 876x794x1
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-ASEN: SEN-L13569949
+Set-Cookie: atlassian.xsrf.token=B7R0-6FCB-ORDS-MTCS_bdff86c22bd20bd0e70eddab604c7ac71f87899a_lout; Path=/
+X-AUSERNAME: anonymous
+Set-Cookie: JSESSIONID=36AF04EA5611EC05BB778447A0C3E80E; Path=/; HttpOnly
+X-Seraph-LoginReason: OK
+Cache-Control: no-cache, no-store, no-transform
+Content-Encoding: gzip
+Vary: User-Agent
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 12 May 2019 09:06:14 GMT
+
+{
+    "session": {
+        "name": "JSESSIONID",
+        "value": "36AF04EA5611EC05BB778447A0C3E80E"
+    },
+    "loginInfo": {
+        "failedLoginCount": 1,
+        "loginCount": 34,
+        "lastFailedLoginTime": "2019-05-08T09:31:30.134+0530",
+        "previousLoginTime": "2019-05-12T14:36:14.931+0530"
+    }
+}
+{"session":{"name":"JSESSIONID","value":"36AF04EA5611EC05BB778447A0C3E80E"},"loginInfo":{"failedLoginCount":1,"loginCount":34,"lastFailedLoginTime":"2019-05-08T09:31:30.134+0530","previousLoginTime":"2019-05-12T14:36:14.931+0530"}}
+Session Id: 36AF04EA5611EC05BB778447A0C3E80E
+io.restassured.path.json.JsonPath@18cc679e
+Request method:	PUT
+Request URI:	http://localhost:8080/rest/api/2/issue/RA-4/comment/10105
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Cookie=JSESSIONID=36AF04EA5611EC05BB778447A0C3E80E
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "body": "This is a comment that only administrators can see for RC4 - updated by put request",
+    "visibility": {
+        "type": "role",
+        "value": "Administrators"
+    }
+}
+HTTP/1.1 200 
+X-AREQUESTID: 876x795x1
+X-ASESSIONID: 1vdrnbg
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-ASEN: SEN-L13569949
+X-Seraph-LoginReason: OK
+Set-Cookie: atlassian.xsrf.token=B7R0-6FCB-ORDS-MTCS_5a8b1594f2b8762af7a6f67f411cdd0d471cf6b9_lin; Path=/
+X-AUSERNAME: deepakdm2016
+Location: http://localhost:8080/rest/api/2/issue/10100/comment/10105
+Cache-Control: no-cache, no-store, no-transform
+Content-Encoding: gzip
+Vary: User-Agent
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 12 May 2019 09:06:14 GMT
+
+{
+    "self": "http://localhost:8080/rest/api/2/issue/10100/comment/10105",
+    "id": "10105",
+    "author": {
+        "self": "http://localhost:8080/rest/api/2/user?username=deepakdm2016",
+        "name": "deepakdm2016",
+        "key": "deepakdm2016",
+        "emailAddress": "deepakdm2016@gmail.com",
+        "avatarUrls": {
+            "48x48": "http://localhost:8080/secure/useravatar?avatarId=10505",
+            "24x24": "http://localhost:8080/secure/useravatar?size=small&avatarId=10505",
+            "16x16": "http://localhost:8080/secure/useravatar?size=xsmall&avatarId=10505",
+            "32x32": "http://localhost:8080/secure/useravatar?size=medium&avatarId=10505"
+        },
+        "displayName": "deepakdm2016@gmail.com",
+        "active": true,
+        "timeZone": "Asia/Calcutta"
+    },
+    "body": "This is a comment that only administrators can see for RC4 - updated by put request",
+    "updateAuthor": {
+        "self": "http://localhost:8080/rest/api/2/user?username=deepakdm2016",
+        "name": "deepakdm2016",
+        "key": "deepakdm2016",
+        "emailAddress": "deepakdm2016@gmail.com",
+        "avatarUrls": {
+            "48x48": "http://localhost:8080/secure/useravatar?avatarId=10505",
+            "24x24": "http://localhost:8080/secure/useravatar?size=small&avatarId=10505",
+            "16x16": "http://localhost:8080/secure/useravatar?size=xsmall&avatarId=10505",
+            "32x32": "http://localhost:8080/secure/useravatar?size=medium&avatarId=10505"
+        },
+        "displayName": "deepakdm2016@gmail.com",
+        "active": true,
+        "timeZone": "Asia/Calcutta"
+    },
+    "created": "2019-05-12T13:55:47.009+0530",
+    "updated": "2019-05-12T14:36:15.154+0530",
+    "visibility": {
+        "type": "role",
+        "value": "Administrators"
+    }
+}
+{"self":"http://localhost:8080/rest/api/2/issue/10100/comment/10105","id":"10105","author":{"self":"http://localhost:8080/rest/api/2/user?username=deepakdm2016","name":"deepakdm2016","key":"deepakdm2016","emailAddress":"deepakdm2016@gmail.com","avatarUrls":{"48x48":"http://localhost:8080/secure/useravatar?avatarId=10505","24x24":"http://localhost:8080/secure/useravatar?size=small&avatarId=10505","16x16":"http://localhost:8080/secure/useravatar?size=xsmall&avatarId=10505","32x32":"http://localhost:8080/secure/useravatar?size=medium&avatarId=10505"},"displayName":"deepakdm2016@gmail.com","active":true,"timeZone":"Asia/Calcutta"},"body":"This is a comment that only administrators can see for RC4 - updated by put request","updateAuthor":{"self":"http://localhost:8080/rest/api/2/user?username=deepakdm2016","name":"deepakdm2016","key":"deepakdm2016","emailAddress":"deepakdm2016@gmail.com","avatarUrls":{"48x48":"http://localhost:8080/secure/useravatar?avatarId=10505","24x24":"http://localhost:8080/secure/useravatar?size=small&avatarId=10505","16x16":"http://localhost:8080/secure/useravatar?size=xsmall&avatarId=10505","32x32":"http://localhost:8080/secure/useravatar?size=medium&avatarId=10505"},"displayName":"deepakdm2016@gmail.com","active":true,"timeZone":"Asia/Calcutta"},"created":"2019-05-12T13:55:47.009+0530","updated":"2019-05-12T14:36:15.154+0530","visibility":{"type":"role","value":"Administrators"}}
+Defect Id:10105
+android Automation
+ios Automation
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.669 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.165 s
+[INFO] Finished at: 2019-05-12T14:36:16+05:30
+[INFO] ------------------------------------------------------------------------
