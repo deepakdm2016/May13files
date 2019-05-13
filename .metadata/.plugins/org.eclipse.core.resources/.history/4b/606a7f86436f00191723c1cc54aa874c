@@ -1,9 +1,0 @@
-package HCL;
-
-public class recatangle extends shape {
-
-	recatangle(double length) {
-		super(length);
-	}
-	
-}

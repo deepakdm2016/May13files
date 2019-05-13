@@ -1,8 +1,0 @@
-package lambda;
-
-public class firstLambda {
-
-	public static void main(String v[]) {
-		
-	}
-}

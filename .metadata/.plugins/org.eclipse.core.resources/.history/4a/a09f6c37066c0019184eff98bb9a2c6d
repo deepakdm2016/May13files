@@ -1,6 +1,0 @@
-package lambda;
-
-public class firstLambda {
-
-	A a=()->System.out.println("Hello there, welcome to lambda);
-}

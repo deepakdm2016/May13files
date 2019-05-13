@@ -1,7 +1,0 @@
-package test123;
-
-import org.testng.internal.annotations.IListeners;
-
-public class verifyListener implements IListeners {
-
-}

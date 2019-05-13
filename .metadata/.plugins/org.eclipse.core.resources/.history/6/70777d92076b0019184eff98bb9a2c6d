@@ -1,6 +1,0 @@
-package inbuiltInterfaceLambda;
-
-public class myRunnable implements Runnable{
-
-	
-}

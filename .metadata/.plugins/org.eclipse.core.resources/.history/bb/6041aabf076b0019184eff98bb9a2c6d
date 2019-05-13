@@ -1,9 +1,0 @@
-package inbuiltInterfaceLambda;
-
-public class testRunnable {
-
-	public static void main(String v[])
-	{
-		
-	}
-}
